@@ -1,0 +1,779 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+img.site-logo {
+    height: 50px;
+    width: 177px;
+    margin-left: 3.6875rem;
+}
+
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #f5a623;
+}
+
+.btn-primary {
+  border-radius: 2px;
+  border-color: #f5a623;
+  background-color: #f5a623;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  padding: 1.25rem 3.125rem;
+  margin-top: 5rem;
+  margin-bottom: 3.125rem;
+}
+
+.navbar {
+  font-family: Open Sans;
+  background-color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  height: 3.875rem;
+  border-bottom: none;
+}
+
+.navbar-brand {
+  padding-left: 3.6875rem;
+  padding-top: 0;
+  height: 50px;
+  margin-bottom: 0;
+}
+
+.container-fluid.navigation {
+  margin-top: 6px;
+}
+
+.container-fluid.about,
+.container-fluid.classes,
+ {
+  margin-top: 3.875rem;
+  padding: 0;
+}
+
+.jumbotron.faculty {
+  margin-top: 3.875rem;
+}
+
+.navbar-right {
+  padding-right: 3.4375rem;
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  font-family: Roboto;
+  margin-bottom: 0;
+}
+
+.jumbotron.home {
+  background-image: url("../pyt_dance_studio_resources/dancers-photo.png");
+  text-align: center;
+}
+
+.jumbotron.home,
+.jumbotron.faculty {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron.about,
+.jumbotron.classes {
+  background-color: #fff;
+  border-bottom: 10px solid #794ae2;
+  padding: 0;
+}
+
+.jumbotron.faculty {
+  background-image: url("../pyt_dance_studio_resources/faculty-photo.png");
+  border-bottom: 10px solid #8a54ff;
+  height: 590px;
+
+}
+
+.primary.home {
+  /*width: 45rem;*/
+  margin-right: auto;
+  /*margin-left: auto;*/
+}
+
+.primary.home,
+.primary.faculty {
+  width: 45rem;
+  margin-left: auto;
+}
+
+.primary.faculty {
+  /*width: 50rem;*/
+  margin-right: 7rem;
+  /*margin-left: auto;*/
+}
+
+.col-xs-12,
+.col-sm-12,
+.col-md-4,
+.col-md-6,
+.col-md-8,
+.col-lg-4,
+.col-lg-6,
+.col-lg-8,
+.col-md-pull-8,
+.col-lg-pull-8,
+.col-md-push-4,
+.col-lg-push-4 {
+  padding: 0;
+}
+
+img.primary.about,
+img.primary.classes {
+  width: 100%;
+}
+
+.classes img {
+height: auto;
+}
+
+.jumbotron .about,
+.jumbotron .classes {
+  width: 100%;
+}
+
+ .jumbotron .about h1 {
+  color: #794ae2;
+}
+
+.jumbotron .about h1,
+.jumbotron .classes h1 {
+  margin-bottom: 3rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.jumbotron .classes h1 {
+  color: rgba(174, 75, 227, 0.9);
+}
+
+ .jumbotron .about p,
+ .jumbotron .classes p {
+  color: #666;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+.jumbotron h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 2.6875rem;
+}
+
+.jumbotron .faculty h1 {
+  margin-top: 5.125rem;
+  color: #8a54ff;
+}
+
+.jumbotron .home h1 {
+  color: #fff;
+}
+
+.jumbotron .home h1,
+.jumbotron .about h1,
+.jumbotron .classes h1 {
+  margin-top: 9.4375rem;
+}
+
+
+
+.jumbotron .faculty p {
+  color: #999;
+}
+
+.jumbotron .home p {
+  color: #fff;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+section {
+  height: 31.25rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.one {
+  background-image: url("../pyt_dance_studio_resources/graffiti-photo.png");
+}
+
+.two {
+  background-image: url("../pyt_dance_studio_resources/fire-photo.png");
+}
+
+.three {
+  background-image: url("../pyt_dance_studio_resources/jump-photo.png");
+}
+
+.text-content,
+.map-content {
+  height: 25rem;
+  width: 30rem;
+  background-color: rgba(173, 74, 226, 0.9);
+  padding: 5rem 3rem 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.text-content h2,
+.map-content h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.text-content p,
+.map-content p {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 1.25rem;
+}
+
+.text-content a {
+  font-weight: bold;
+  color: #fff;
+}
+
+.color1 {
+  background-color: #f2f2f2;
+}
+
+.color2 {
+  background-color: #fff;
+}
+
+.color1,
+.color2 {
+  padding: 4rem 19%;
+}
+
+.about-image img {
+  width: auto;
+  height: 9.375rem;
+}
+
+.vertical-align {
+  padding: 10% 0;
+}
+
+.about-image {
+  padding: 10% 0;
+}
+
+.about-text h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #794ae2;
+  padding-bottom: 1rem;
+}
+
+.about-text p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+.color1 .about-image {
+  margin-right: 5rem;
+}
+
+.color2 .about-image {
+  margin-left: 5rem;
+}
+
+.map {
+  background-image: url("../pyt_dance_studio_resources/map.jpg");
+}
+
+p.address-line {
+  margin-bottom: 0;
+}
+
+p.studio {
+  font-weight: bold;
+}
+
+.lessons {
+  margin: 5.3125rem 0 0 0;
+}
+
+.members {
+  margin: 5.625rem 7.5rem 5rem 7.5rem;
+}
+
+.members-info h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #8a54ff;
+  margin-top: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.members-info img {
+  width: 16.875rem;
+  /*height: 524px;*/
+
+}
+.members-details {
+  /*margin-bottom: 6.25rem;*/
+  height: 524px;
+}
+
+p.title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding-bottom: 0.625rem;
+}
+
+p.details {
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-size: .875rem;
+}
+
+.lessons .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lessons-info {
+  width: 25rem;
+  padding-left: 1.125rem;
+  padding-right: 1.125rem;
+  margin-bottom: 3.75rem;
+}
+
+.lessons-info h3 {
+  margin-top: 0;
+  margin-bottom: 1.125rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: rgba(174, 75, 227, 0.9);
+}
+
+p.days {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+p.time {
+  margin-top: 0;
+  margin-bottom: 1.125rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+p.details .members-info {
+  margin-bottom: 0;
+  font-size: .875rem;
+  line-height: 1.7;
+}
+
+footer {
+  background-image: url("../pyt_dance_studio_resources/party-photo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer .info {
+  height: 5rem;
+}
+
+footer .information {
+  height: 15rem;
+  text-align: center;
+  background-color: #000;
+  opacity: 0.7;
+  padding-top: 5rem;
+}
+
+.information.desktop {
+  display: block;
+}
+
+.information.mobile {
+  display: none;
+}
+
+.footer-logo {
+  height: 50px;
+  width: 177px;
+  margin: 15px auto 15px 10px;
+}
+
+.social-media.desktop {
+  display: block;
+}
+
+.social-media.mobile {
+  display: none;
+}
+
+.social-media {
+  width: 9.375rem;
+  color: #fff;
+  margin: auto;
+  padding-top: 28px;
+}
+ .icon-padding {
+   padding-right: 37px;
+ }
+
+footer p,
+footer span {
+  font-size: 0.875rem;
+  color: #fff;
+  letter-spacing: 0.7px;
+}
+
+.more-info a {
+  color: #fff;
+}
+
+.more-info {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.cont {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .container-fluid.navigation{
+    display: flex;
+  }
+
+  .container-fluid.about,
+  .container-fluid.classes {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+
+  .navbar-right {
+    padding-right: 6.25rem;
+    display: flex;
+    /*margin-top: 3px;*/
+  }
+
+  .navbar {
+    font-size: 0.75rem;
+    height: 2.5rem;
+  }
+
+  img.site-logo {
+    height: 2.5rem;
+    width: auto;
+  }
+
+  .primary.home,
+  .primary.faculty {
+    width: 31.25rem;
+  }
+
+  .primary.faculty {
+    margin-right: 1rem;
+  }
+
+  .text-content {
+    height: 12.1875rem;
+    width: 100%;
+    padding: 1.875rem 3.4375rem 0 1.875rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .text-content h2,
+  .map-content h2 {
+    font-size: 1.875rem;
+    line-height: 1.4;
+    margin-bottom: 0.625rem;
+  }
+
+  .text-content p,
+  .map-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+  }
+
+  .map-content {
+    height: 20rem;
+    width: 25rem;
+  }
+
+  .jumbotron .about h1,
+  .jumbotron .classes h1 {
+   font-size: 1.25rem;
+   margin-bottom: 2rem;
+   margin-top: 2.5rem;
+ }
+
+  .jumbotron .about p,
+  .jumbotron .classes p {
+   font-size: 1rem;
+   line-height: 1.6;
+ }
+
+  .color1,
+  .color2 {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+
+  .about-image img {
+    height: 6.25rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.75rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  p.address-line {
+    margin-bottom: 0;
+  }
+
+  .about-image {
+    padding: 0;
+    text-align: center;
+  }
+
+  .color1 .about-image {
+    margin-right: 0;
+  }
+
+  .color2 .about-image {
+    margin-left: 0;
+  }
+
+  .lessons-info {
+    width: 18.75rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .lessons-info h3 {
+    font-size: 1.5rem;
+  }
+
+  p.time {
+    font-size: 1.125rem;
+  }
+
+  p.details {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  footer .info {
+    height: 2.5rem;
+  }
+
+  .footer-logo,
+  .more-info {
+    display: none;
+  }
+
+  .social-media {
+    width: 5.4375rem;
+    padding-top: 10px;
+  }
+
+  .social-media.desktop {
+    display: none;
+  }
+
+  .social-media.mobile {
+    display: block;
+  }
+
+  .icon-padding {
+    padding-right: 23px;
+  }
+
+  footer p,
+  footer span {
+    font-size: 0.6rem;
+    letter-spacing: 0.5px;
+  }
+  footer p {
+    margin-bottom: 5px;
+  }
+
+  footer .information {
+    height: 8.75rem;
+    padding-top: 1.8rem;
+  }
+
+  .information.desktop {
+    display: none;
+  }
+
+  .information.mobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 417px) {
+  .primary.home,
+  .primary.faculty {
+    width: 18.5rem;
+    margin: 0 auto;
+  }
+
+  .jumbotron.faculty {
+    margin-top: 2.5rem;
+  }
+
+  .primary.faculty h1{
+    margin-top: 20rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 1.875rem;
+    margin-top: 7.125rem;
+    margin-bottom: 1.625rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .btn-primary {
+    margin-top: 3.875rem;
+  }
+
+  .text-content,
+  .map-content {
+    padding: 1.875rem 1.25rem 0 1.25rem;
+  }
+
+  .map-content {
+    height: 17rem;
+    width: 20rem;
+  }
+
+  .text-content h2,
+  .map-content {
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  .text-content a{
+    font-size: 1rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display:block;
+  }
+
+  img.site-logo {
+      height: 30px;
+      width: 37px;
+      margin-left: 0.625rem;
+  }
+
+  .navbar-brand {
+    padding-left: 0.625rem;
+    height: 30px;
+  }
+
+  .primary,
+  .btn-primary {
+    margin: auto;
+  }
+
+  .lessons-info {
+    width: 17.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  p.days,
+  p.title {
+    font-size: 1rem;
+  }
+
+  p.time {
+    font-size: .875rem;
+    line-height: 1.7;
+    margin-bottom: .625rem;
+  }
+
+  p.details {
+    font-size: .875rem;
+    line-height: 1.7;
+  }
+
+  .members {
+    margin-bottom: 0.6875rem;
+  }
+
+  .members-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .members-info img {
+    margin-left: -40px;
+  }
+
+}
